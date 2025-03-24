@@ -27,7 +27,7 @@ const Hero = () => {
   const socialLinks = [
     {
       icon: <FaFacebook size={25} />,
-      url: "https://facebook.com",
+      url: "https://www.facebook.com/utkarsh.khetan.73",
       label: "Facebook"
     },
     {
@@ -111,7 +111,7 @@ const Hero = () => {
             className="flex items-center justify-center gap-4 mb-8"
           >
             <a 
-              href="#projects"
+              href="#work"
               className="px-8 py-3 bg-accent text-primary font-semibold rounded-full 
                 hover:bg-accent/90 transition-all duration-300 transform hover:scale-105"
             >

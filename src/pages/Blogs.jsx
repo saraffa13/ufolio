@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import BlogNavbar from '../components/BlogNavbar';
-import BlogList from './BlogList';
+import BlogDisplay from './BlogDisplay';
 
 const Blogs = () => {
 
     return (
         <>
             <BlogNavbar />
-            <BlogList />
+            <BlogDisplay/>
         </>
 
     );

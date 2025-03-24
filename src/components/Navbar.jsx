@@ -11,7 +11,7 @@ const Navbar = () => {
     { name: 'Skills', link: '#skills' },
     { name: 'Education', link: '#education' },
     { name: 'Contact', link: '#contact' },
-    { name: 'Blogs', link: '/blogs', highlight: true }, // Highlight Blog
+    { name: 'Blogs', link: '/blogs', highlight: true },
   ];
 
   return (

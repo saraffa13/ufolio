@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGithub, FaLinkedin, FaTwitter, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaFacebook, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -9,34 +9,28 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex space-x-6 mb-4">
             <a
-              href="https://github.com/saraffa13"
+              href="https://www.instagram.com/utkarshkhetan13"
               target="_blank"
               rel="noreferrer"
               className="text-textPrimary hover:text-accent transition-colors"
             >
-              <FaGithub size={24} />
+              <FaInstagram size={24} />
             </a>
             <a
-              href="https://www.linkedin.com/in/shivam-kumar-saraffa-66167a1b8/"
+              href="https://www.facebook.com/utkarsh.khetan.73"
               target="_blank"
               rel="noreferrer"
               className="text-textPrimary hover:text-accent transition-colors"
             >
-              <FaLinkedin size={24} />
+              <FaFacebook size={24} />
             </a>
             <a
-              href="https://x.com/shivam13537194"
+              href="https://twitter.com/yourprofile"
               target="_blank"
               rel="noreferrer"
               className="text-textPrimary hover:text-accent transition-colors"
             >
               <FaTwitter size={24} />
-            </a>
-            <a
-              href="mailto:ssaraffa786@gmail.com"
-              className="text-textPrimary hover:text-accent transition-colors"
-            >
-              <FaEnvelope size={24} />
             </a>
           </div>
 

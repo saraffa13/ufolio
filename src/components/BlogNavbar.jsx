@@ -6,9 +6,7 @@ const BlogNavbar = () => {
   const handleNav = () => setNav(!nav);
 
   const links = [
-    { name: 'Home', link: '/', highlight: true },
-    { name: 'Add Blog', link: '/add-blog', highlight: true },
-    { name: 'Login', link: '/login', highlight: false },
+    { name: 'Home', link: '/', highlight: true }
   ];
 
   return (
@@ -18,6 +16,11 @@ const BlogNavbar = () => {
           Utkarsh
         </a>
         
+        {/* Welcome Message */}
+        <div className="hidden md:block text-lg font-medium text-textPrimary">
+          WELCOME to my blogs
+        </div>
+
         {/* Desktop Menu */}
         <div className="hidden md:flex">
           <ul className="flex items-center space-x-8">

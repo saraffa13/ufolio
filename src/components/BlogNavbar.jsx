@@ -1,17 +1,14 @@
 import React, { useState } from 'react';
 import { HiMenuAlt3, HiX } from 'react-icons/hi';
 
-const Navbar = () => {
+const BlogNavbar = () => {
   const [nav, setNav] = useState(false);
   const handleNav = () => setNav(!nav);
 
   const links = [
-    { name: 'Home', link: '#home' },
-    { name: 'My Work', link: '#work' },
-    { name: 'Skills', link: '#skills' },
-    { name: 'Education', link: '#education' },
-    { name: 'Contact', link: '#contact' },
-    { name: 'Blogs', link: '/blogs', highlight: true }, // Highlight Blog
+    { name: 'Home', link: '/', highlight: true },
+    { name: 'Add Blog', link: '/add-blog', highlight: true },
+    { name: 'Login', link: '/login', highlight: false },
   ];
 
   return (
@@ -63,4 +60,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default BlogNavbar;

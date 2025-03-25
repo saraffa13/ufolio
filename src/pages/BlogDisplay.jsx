@@ -13,8 +13,7 @@ const BlogDisplay = () => {
           zIndex: 1,
         }}
       />
-
-      {/* Content */}
+      
       <div className="absolute inset-0 top-36 sm:top-5 flex items-center justify-center z-10">
         <iframe
           src="https://khetanutkarsh.wordpress.com/blog/?fbclid=PAZXh0bgNhZW0CMTEAAaZ2ozgjDym06QlqN98YVbJDbSLG-kG99j_mbQfTi3EGHOqdl1kGejhdbDY_aem_XQTZ_TlvbIVq2MjY3ffG6Q"
@@ -30,3 +29,4 @@ const BlogDisplay = () => {
 };
 
 export default BlogDisplay;
+
